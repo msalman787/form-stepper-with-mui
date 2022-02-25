@@ -1,24 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Step_form from './Components/Stepper';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <h1 className='text-center mt-3 text-dark fw-bold'>Saylani  Mass IT Program</h1>
+      <h2 className='text-center h4 text-uppercase text-black-50 mb-3'>Registration Form</h2>
+      <Step_form/>
     </div>
   );
 }
